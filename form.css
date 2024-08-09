@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    border-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    width: fit-content;
+    
+    
+}
+
+form.val{
+    display:inline-block;
+    padding: 20px;
+}
+
+form.val input{
+    display: block;
+    margin-bottom: 10px;
+    padding:8px;
+}
+form.val button{
+    display:block;
+    padding:10px 20px;
+    margin:0 auto;
+    border:none;
+    border-radius: 5px;
+    background: color #007bff;;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
